@@ -1,8 +1,8 @@
 # Yakuza System Privacy Policy
 
-**Effective date:** [September 1, 2026]
+**Effective date:** September 1, 2026
 
-**Operator/contact:** [yakuza.community@proton.me]
+**Operator/contact:** yakuza.community@proton.me
 
 This policy applies to the Yakuza System Discord application (application ID
 `506148787362988033`). It does not automatically apply to other Yakuza applications.
@@ -50,7 +50,7 @@ organizational safeguards.
 ## Requests and deletion
 
 Users and server administrators may request access to or deletion of data associated with their
-Discord user or server ID by contacting **[yakuza.community@proton.me]**. Include the relevant Discord
+Discord user or server ID by contacting **yakuza.community@proton.me**. Include the relevant Discord
 user/server ID so the operator can locate the records. The operator may ask the requester to
 verify control of the relevant Discord account or server and will respond within a reasonable
 period, subject to legal, security, and abuse-prevention obligations.
@@ -68,4 +68,4 @@ be reflected by updating the effective date on the publicly hosted version.
 
 ## Contact
 
-Privacy questions and requests: **[yakuza.community@proton.me]**
+Privacy questions and requests: **yakuza.community@proton.me**
