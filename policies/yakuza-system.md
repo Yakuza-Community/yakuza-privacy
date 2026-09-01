@@ -50,7 +50,7 @@ organizational safeguards.
 ## Requests and deletion
 
 Users and server administrators may request access to or deletion of data associated with their
-Discord user or server ID by contacting **[PRIVACY_CONTACT_EMAIL]**. Include the relevant Discord
+Discord user or server ID by contacting **[yakuza.community@proton.me]**. Include the relevant Discord
 user/server ID so the operator can locate the records. The operator may ask the requester to
 verify control of the relevant Discord account or server and will respond within a reasonable
 period, subject to legal, security, and abuse-prevention obligations.
