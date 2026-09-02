@@ -8,9 +8,9 @@ This policy applies to the Yakuza Tickets Discord application (the `Yakuza-Syste
 
 ## Data we process
 
-To create and manage support tickets, we process Discord user, guild, channel, role, and message IDs; usernames/display names; ticket category and status; command, button, select-menu, and modal inputs; ticket participant and staff-claim records; messages and attachments sent within a ticket; transcript files; ratings/reviews; ticket, staff, and server statistics; and server configuration records.
+To create and manage support tickets, we process Discord user, guild, channel, role, and message IDs; usernames/display names; ticket category and status; command, button, select-menu, and modal inputs; ticket question responses and close reasons; ticket participant and staff-claim records; participant message counts and response timestamps; messages and attachments sent within a ticket; transcript files; ratings/reviews; ticket, staff, and server statistics; and server configuration records.
 
-Where enabled by a server administrator, the bot may also process invoice or payment reference data for PayPal, Stripe, or crypto-payment features, and ticket content submitted to the optional AI summary or auto-response feature.
+Where enabled by a server administrator, the bot may also process invoice or payment reference data for PayPal, Stripe, or crypto-payment features. The optional AI auto-response feature requires administrator opt-in. Before a message is sent to the configured AI provider, the bot removes Discord mentions, email addresses, links, and phone-number patterns. When AI statistics are enabled, the sanitized message, generated response metadata, and feedback are stored in the database; a configured private Discord AI log can contain a short excerpt of the sanitized message.
 
 ## Why we process it
 
@@ -18,7 +18,7 @@ We use this information only to open, restrict access to, operate, archive, clos
 
 ## Storage and sharing
 
-Ticket and configuration records are stored in the bot's configured MongoDB database. Transcripts may be posted to Discord log channels selected by server administrators, stored locally when that option is enabled, or made available through the configured dashboard. Payment data is sent only to the payment provider selected by the server. When a server enables optional AI features, the relevant ticket content is sent to the configured AI provider. If the optional error-report upload setting is enabled, sanitized diagnostic logs may be sent to the configured paste service. We do not share data with unrelated advertisers.
+Ticket and configuration records are stored in the bot's configured MongoDB database. Transcripts may be posted to Discord log channels selected by server administrators, stored locally when that option is enabled, or made available through the configured dashboard. The bot also writes local diagnostic logs; external paste-service upload is disabled by default and occurs only if a server administrator explicitly enables it. Payment data is sent only to the payment provider selected by the server. When a server enables optional AI features, the sanitized relevant message data is sent to the configured AI provider. We do not share data with unrelated advertisers.
 
 ## Retention and deletion
 
